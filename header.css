@@ -1,5 +1,5 @@
 .cabecalho-menu-hamburguer{
-    width : 24px;
+    width: 24px;
     height: 24px;
     background-image: url("../img/Menu.png");
     background-repeat: no-repeat;
@@ -11,11 +11,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
+    position: relative;
 }
-    .container {
-        display: flex;
-        align-items: center;
+.container{
+    display: flex;
+    align-items: center;
 }
 .container-imagem{
     padding: 1em;
@@ -23,10 +23,10 @@
 .lista-menu{
     display: none;
     position: absolute;
-    top: 100%
+    top: 100%;
 }
-.container-botao:checked~.lista-menu{
-    display:block;
+.container-botao:checked ~ .lista-menu{
+    display: block;
 }
 .lista-menu-titulo,.lista-item{
     padding: 1em;
@@ -34,4 +34,8 @@
 }
 .lista-menu-titulo{
     color: var(--laranja);
+    font-weight: 700;
+}
+.container-botao{
+    display: none;
 }
